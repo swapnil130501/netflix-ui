@@ -2,11 +2,11 @@ import { AiOutlineInfoCircle } from "react-icons/ai"
 
 export const MainBoard = () => {
     return (
-        <div className="relative">
-            <video autoPlay muted loop src={"/videos/dark-trailer.mp4"}/>
+        <div className="relative h-[52vw]">
+            <video className="w-full h-[52vw] brightness-50 object-cover" autoPlay muted loop src={"/videos/dark-trailer.mp4"}/>
 
             <div className="absolute top-[40%] ml-16">
-                <p className="text-white text-6xl h-full w-[50%]">
+                <p className="text-white text-6xl h-full w-[70%]">
                     Dark
                 </p>
 
@@ -27,10 +27,6 @@ export const MainBoard = () => {
                 </div>
 
             </div>
-
-
         </div>
-
-
     )
 }

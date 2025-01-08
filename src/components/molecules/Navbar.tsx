@@ -7,7 +7,7 @@ import { BsBell, BsSearch } from "react-icons/bs";
 export const Navbar = () => {
     return (
         <div className="w-full fixed z-40">
-            <div className="flex flex-row items-center px-16 py-6 bg-zinc-900 bg-opacity-10">
+            <div className="flex flex-row items-center px-16 py-6 bg-opacity-10">
 
                 <Image src={"/Images/logo.png"} alt="logo" height={12} width={150} />
 

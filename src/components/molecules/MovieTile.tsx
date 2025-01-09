@@ -15,7 +15,7 @@ export const MovieTile: React.FC<MovieTileProps> = ({
 
                 className="w-full cursor-pointer object-cover transition shadow-xl hover:opacity-80 delay-300 h-[10vw]"
             
-                src="https://cdn.marvel.com/content/1x/avengersinfinitywar_lob_mas_hlf_01_2.jpg"
+                src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/2022/07/Dark.jpg"
             />
 
             <div
